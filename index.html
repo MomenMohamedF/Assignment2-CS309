@@ -4,14 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Studio - Home</title>
-    <link rel="stylesheet" href="styles.css"/>
+    <meta name="description" content="Explore Studio's responsive layout examples built with CSS Flexbox and Grid, including reusable page components." />
+    <meta property="og:title" content="Studio - Responsive Layout Examples" />
+    <meta property="og:description" content="Explore responsive layouts and reusable components built with CSS Flexbox and Grid." />
+    <meta property="og:type" content="website" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header class="site-header">
       <a class="logo" href="index.html">Studio</a>
       <nav aria-label="Main navigation">
         <ul>
-          <li><a class="active" href="index.html">Home</a></li>
+          <li><a class="active" href="index.html" aria-current="page">Home</a></li>
           <li><a href="components.html">Components</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#contact">Contact</a></li>
@@ -22,8 +26,8 @@
       <section class="hero">
         <h1>Build clean layouts with Flexbox and Grid</h1>
         <p>
-          This homepage uses Flexbox for the navigation and CSS Grid for the
-          main content. Resize the window to see it switch to a single column.
+          This homepage uses Flexbox for navigation and CSS Grid for the main
+          content, with one, two, or three columns based on screen width.
         </p>
         <div class="actions">
           <a class="btn" href="components.html">View components</a>
